@@ -1,0 +1,26 @@
+{
+  "name": "chat-mogodb-mysql",
+  "version": "1.0.0",
+  "description": "Um web chat hibrido com mongodb e mysql.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "mogodb",
+    "mysql",
+    "web",
+    "chat",
+    "bd3"
+  ],
+  "author": "Cristiano Correa de Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
